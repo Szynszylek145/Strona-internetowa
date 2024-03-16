@@ -1,0 +1,22 @@
+body {
+    font-family: Arial,  sans-serif; /* Rodzina czcionek */
+    font-size: 11px; /* Rozmiar głównej czcionki w <p></p> tag  */
+    background-color: #ffffff; /* Kolor tła strony internetowej */
+    color: #ffffff; /* Kolor tła strony internetowej*/ 
+}
+h1 {
+    color: #1a1dc9; /* Kolor nagłówka */
+    font-size: 24px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+}
+h2 {
+    color: #830f92; /* Kolor nagłówka */
+    font-size: 24px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+}
+p {
+    font-family: Arial,  sans-serif; /* Rodzina czcionek */
+    font-size: 11px; /* Rozmiar głównej czcionki w <p></p> tag  */
+    background-color: #ac9292; /* Kolor tła strony internetowej */
+    color: #000000a1; /* Kolor tła strony internetowej*/ 
+}
