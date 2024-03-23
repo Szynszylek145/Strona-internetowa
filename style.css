@@ -10,9 +10,7 @@ h1 {
     font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
 }
 h2 {
-    color: #830f92; /* Kolor nagłówka */
-    font-size: 24px; /* Rozmiar czcionki nagłówka */
-    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+    animation: color-change 5s infinite;
 }
 p {
     font-family: Arial,  sans-serif; /* Rodzina czcionek */
@@ -20,3 +18,29 @@ p {
     background-color: #ac9292; /* Kolor tła strony internetowej */
     color: #000000a1; /* Kolor tła strony internetowej*/ 
 }
+li {
+    color: #1ab5c9; /* Kolor nagłówka */
+    font-size: 11px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+}
+
+h1:hover {
+    color: #333333;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+      font-size: 24px;
+    }
+
+    50% {
+      color: red;
+      font-size: 12px
+    }
+
+    100% {
+      color: blue;
+      font-size: 24px
+    }
+  }
